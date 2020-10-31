@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>物理 on 罗然的博客</title>
+    <link>https://laurentluo.github.io/tags/%E7%89%A9%E7%90%86/</link>
+    <description>Recent content in 物理 on 罗然的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>版权信息</copyright>
+    <lastBuildDate>Sun, 18 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://laurentluo.github.io/tags/%E7%89%A9%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试</title>
+      <link>https://laurentluo.github.io/posts/post/</link>
+      <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://laurentluo.github.io/posts/post/</guid>
+      <description>傅里叶级数 Parserval恒等式 设$f(x+2\pi)=f(x),\forall x\in \R,f$在$[-\pi,\pi]$平方可积，则 $$ \frac {a_0^2}2+ \sum_{n=1}^{+\infty} a_{k}^2+b_k^2=\frac 1\pi \int_{-\pi}^\pi f^2\mathrm{d} x. $$
+ Case 1: 设$f\in C(\R),$由Weierstrass逼近定理，$\forall \epsilon &amp;gt;0,\exists T_n\text{ s.t. }\sup |f-T_n|&amp;lt;\epsilon,$则 $$ \frac 1{2\pi } \int_{-\pi}^\pi |f-S_n|^2,\mathrm{d} x \leq \frac 1 {2\pi} \int_{-\pi}^\pi |f-T_n|^2,\mathrm{d} x&amp;lt;\epsilon ^2. $$ 而易证$\displaystyle \int_{-\pi}^\pi |f-S_n|^2,\mathrm{d} x$关于$n$单调减，则 $$ \lim_{n\to\infty} \int_{-\pi}^\pi |f-S_n|^2,\mathrm{d} x=0\quad(\Delta _n^2\to 0). $$ Case 2: 若$f$平方可积，则可用连续函数$g$逼近，并使$f(\pi)=f(-\pi)$.
+ Example 设$f,g$以$2\pi$为周期的连续函数，Fourier系数相等，则$f\equiv g$.
+ $f,g$ Fourier系数相等$\implies f-g$ Fourier系数为$0\implies \displaystyle \int_{-\pi}^\pi |f-g|^2,\mathrm{d} x=0$, 而$f,g\in C(\R)$, 则$f-g=0.</description>
+    </item>
+    
+  </channel>
+</rss>
