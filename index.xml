@@ -1,24 +1,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>罗然的博客</title>
-    <link>https://laurentluo.github.io/</link>
+    <link>https://LaurentLuo.github.io/</link>
     <description>Recent content on 罗然的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>版权信息</copyright>
     <lastBuildDate>Sun, 18 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://laurentluo.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://LaurentLuo.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
         <title>测试</title>
-        <link>https://laurentluo.github.io/posts/post/</link>
+        <link>https://LaurentLuo.github.io/posts/post/</link>
         <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
         
-        <guid>https://laurentluo.github.io/posts/post/</guid>
-        <description>罗然的博客 https://laurentluo.github.io/posts/post/ -&lt;h4 id=&#34;傅里叶级数&#34;&gt;傅里叶级数&lt;/h4&gt;
+        <guid>https://LaurentLuo.github.io/posts/post/</guid>
+        <description>罗然的博客 https://LaurentLuo.github.io/posts/post/ -&lt;h4 id=&#34;傅里叶级数&#34;&gt;傅里叶级数&lt;/h4&gt;
 &lt;h5 id=&#34;parserval恒等式&#34;&gt;Parserval恒等式&lt;/h5&gt;
 &lt;p&gt;设$f(x+2\pi)=f(x),\forall x\in \R,f$在$[-\pi,\pi]$平方可积，则
 $$
@@ -118,7 +118,7 @@ $$
 $$
 注意右边这样写是因为第二个分数必须$\leq 0$. 然后, 可以解出一个$u(x,t)=b_n\mathrm e^{-n^t}\sin nx$. 如果初值条件能够写成正弦级数的形式, 则就可以求解. Fourier级数就是这样子产生的.&lt;/p&gt;
 &lt;/blockquote&gt;
-- https://laurentluo.github.io/posts/post/ - 版权信息</description>
+- https://LaurentLuo.github.io/posts/post/ - 版权信息</description>
         </item>
     
     
