@@ -1,0 +1,44 @@
+baseURL = "https://laurentluo.github.io"
+DefaultContentLanguage = "zh"
+hasCJKLanguages = true
+languageCode = "zh-cn"
+title = "玉衡"
+copyright = "Alioth"
+theme = "diary"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 4
+
+[params]
+subtitle = "一些想法。"
+# enableGitalk = true
+disableAutoCollapse = true
+enableReadingTime = true
+
+# Twitter Card and Open Graph settings
+enableOpenGraph = false
+enableTwitterCards = false
+
+[[menu.main]]
+    url = "/posts"
+    name = "博文列表"
+    weight = 2
+
+[[menu.main]]
+    url = "/index.xml"
+    name = "RSS订阅"
+    weight = 4
+
+[[menu.main]]
+    url = "/about"
+    name = "关于我"
+    weight = 1
