@@ -1,7 +1,7 @@
 new SmoothScroll('a#globalBackToTop');
 
-Vue.component('parent',{
-    props:['name','type'],
+Vue.component('parent', {
+    props: ['name', 'type'],
     data: function () {
         return {
             isHidden: true
@@ -17,12 +17,12 @@ Vue.component('parent',{
     `
 });
 
-$().ready(function(){
+$().ready(function () {
     var elems = $("table");
-    elems.each(function(idx){
-      $(this).addClass('table-striped');
-      $(this).addClass('table');
-      $(this).addClass('table-responsive');
-      $(this).addClass('table-hover');
-      });
+    elems.each(function (idx) {
+        $(this).addClass('table-striped');
+        $(this).addClass('table');
+        $(this).addClass('table-responsive');
+        $(this).addClass('table-hover');
+    });
 });
